@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Daily Planner</title>
+  </head>
+
+  <body>
+    <header class="jumbotron bg-dark text-light">
+      <h1 class="display-2"> Daily Planner</h1>
+      <p class="lead">An hourly planner to stay on track!</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+
+      <!-- 9 AM -->
+      <div class="row time-block mb-4" data-index="0" data-time="9">
+        <div class="col-2 hour">
+          <p>9 A.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 10 AM -->
+      <div class="row time-block mb-4" data-index="1" data-time="10">
+        <div class="col-2 hour">
+          <p>10 A.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 11 AM -->
+      <div class="row time-block mb-4" data-index="2" data-time="11">
+        <div class="col-2 hour">
+          <p>11 A.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 12 PM -->
+      <div class="row time-block mb-4" data-index="3" data-time="12">
+        <div class="col-2 hour">
+          <p>12 P.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 1 PM -->
+      <div class="row time-block mb-4" data-index="4" data-time="13">
+        <div class="col-2 hour">
+          <p>1 P.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 2 PM -->
+      <div class="row time-block mb-4" data-index="5" data-time="14">
+        <div class="col-2 hour">
+          <p>2 P.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 3 PM -->
+      <div class="row time-block mb-4" data-index="6" data-time="15">
+        <div class="col-2 hour">
+          <p>3 P.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 4 PM -->
+      <div class="row time-block mb-4" data-index="7" data-time="16">
+        <div class="col-2 hour">
+          <p>4 P.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <!-- 5 PM -->
+      <div class="row time-block mb-4" data-index="8" data-time="17">
+        <div class="col-2 hour">
+          <p>5 P.M.</p>
+        </div>
+        <textarea class="col-8 text-area"></textarea>
+        <button class="col-2 saveBtn"><i class="bi bi-save"></i></button>
+      </div>
+
+      <div class="row py-3 justify-content-end">
+        <button type="button" class="btn btn-danger btn-lg custom-btn clearBtn">Clear All</button>
+      </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

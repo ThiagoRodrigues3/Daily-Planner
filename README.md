@@ -7,7 +7,7 @@
 Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ### Live Application Link 👀
-See live application [here](https://thiagorodrigues3.github.io/Daily-Planner/)
+See live application [here](https://thiagorodrigues3.github.io/daily-planner/)
 
 ### Built With 🧰
 - [x] HTML
